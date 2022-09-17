@@ -262,7 +262,7 @@ const Dashboard = () => {
                 DASHBOARD
             </Typography>
             <Grid container justify="center" spacing={10}>
-                <Box sx={{ display: 'flex', margin: '20px' }} mt = {5}>
+                <Box sx={{ display: 'flex', margin: '20px',width: '100%' }} mt = {5}>
                     
                     <Card className = {classes.gridItem} style={{ width: '500px', height: '240px'}}>
                         <CardContent style={{textAlign: 'left'}}>
@@ -350,7 +350,7 @@ const Dashboard = () => {
                 </Box>
             </Grid>
             <Grid container justify = 'center' spacing = {10}>
-                <Box sx={{ display: 'flex',  margin: '20px' }} mt = {5}>
+                <Box sx={{ display: 'flex',  margin: '20px', width: '100%' }} mt = {5}>
                     <Card className = {classes.gridItem} style={{ width: '800px', height: '500px'}}>
                         <CardContent style = {{align: 'center'}}>
                             <Typography color="textPrimary" align="left" variant="h6" gutterBottom>
@@ -500,7 +500,7 @@ const Dashboard = () => {
             </Grid>
                 
             <Grid container justifyContent="center" spacing = {10}>
-                <Box sx={{ display: 'flex' ,  margin: '20px'}} mt = {5}>
+                <Box sx={{ display: 'flex' ,  margin: '20px', width: '100%'}} mt = {5}>
                     <Card className = {classes.gridItem} style={{ width: '800px', height: '750px'}}>
                         <CardContent>
                             <Typography color="textPrimary" align="left" variant="h6" gutterBottom>
